@@ -50,6 +50,10 @@ body{
 input{
     width: 30%;
     height: 10vh;
+    text-align: center;
+}
+#num2{
+    display: none;
 }
 section{
     display: flex;
