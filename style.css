@@ -21,6 +21,7 @@ body{
     max-width: 80vh;
     height: fit-content;
     outline: 1vh solid;
+    /* transform: scale(-0.5); */
 }
 
 .calculadora__display{
@@ -32,14 +33,15 @@ body{
     align-items: center;
     justify-content: flex-end;
     font-size: 2rem;
-
-
 }
 
 .calculadora__valores{
     display: flex;
     justify-content: space-evenly;
     padding: 1vh;
+}
+.calculadora__botones{
+    padding: 5vh 0;
 }
 #operando{
     width: 20%;
@@ -66,4 +68,10 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width:1200px){
+    .calculadora{
+        transform: scale(1.1);
+    }
 }
