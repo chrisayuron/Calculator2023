@@ -21,6 +21,7 @@ body{
     max-width: 80vh;
     height: fit-content;
     outline: 1vh solid;
+    position: relative;
     /* transform: scale(-0.5); */
 }
 
@@ -33,6 +34,8 @@ body{
     align-items: center;
     justify-content: flex-end;
     font-size: 2rem;
+    overflow: hidden;
+   
 }
 
 .calculadora__valores{
@@ -69,6 +72,17 @@ section{
     align-items: center;
     justify-content: center;
 }
+#dato,#operador{
+    position: absolute;
+    font-size: 0.5rem;
+   
+    border: solid 0.1px;
+    height: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+
 
 @media (min-width:1200px){
     .calculadora{
